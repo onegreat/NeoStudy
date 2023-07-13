@@ -55,11 +55,67 @@
         url("/fonts/NunitoSans-Regular.woff") format("woff");
 }
 
-.as {
-    font-family: "Nunito Sans", "Arial", sans-serif;
-    font-weight: 400;
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    background: #F5F4FF;
 }
 
-.par {
-    font-family: "Ubunty", "Arial", sans-serif;
+.wrapper {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* header */
+
+.section-header {
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    margin: auto 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    color: #B4387A;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar__list {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.navbar__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.navbar__link {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(29, 25, 41, 1);
+}
+
+.btn {
+    appearance: none;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 16px;
+    background: rgba(0, 60, 255, 1);
+    color: rgba(255, 255, 255, 1);
+
 }
