@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Ubuntu"),
+        /* Если не получилось, загрузит woff2 */
+        url("/fonts/Ubuntu-Regular.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */
+        url("/fonts/Ubuntu-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Ubuntu"),
+        url("/fonts/Ubuntu-Medium.woff2") format("woff2"),
+        url("/fonts/Ubuntu-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Ubuntu"),
+        url("/fonts/Ubuntu-Bold.woff2") format("woff2"),
+        url("/fonts/Ubuntu-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Rubik"),
+        url("/fonts/Rubik-Regular.woff2") format("woff2"),
+        url("/fonts/Rubik-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Rubik"),
+        url("/fonts/Rubik-Medium.woff2") format("woff2"),
+        url("/fonts/Rubik-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Nunito Sans"),
+        url("/fonts/NunitoSans-Regular.woff2") format("woff2"),
+        url("/fonts/NunitoSans-Regular.woff") format("woff");
+}
+
+.as {
+    font-family: "Nunito Sans", "Arial", sans-serif;
+    font-weight: 400;
+}
+
+.par {
+    font-family: "Ubunty", "Arial", sans-serif;
+}
