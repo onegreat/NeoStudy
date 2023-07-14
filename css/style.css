@@ -108,6 +108,8 @@ body {
 }
 
 .btn {
+
+    cursor: pointer;
     appearance: none;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
@@ -117,5 +119,26 @@ body {
     font-size: 16px;
     background: rgba(0, 60, 255, 1);
     color: rgba(255, 255, 255, 1);
+}
 
+.btn-hero {
+    margin-top: 36px;
+}
+
+.section-hero {
+    margin-top: 132px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1-hero {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    max-width: 609px;
+    font-size: 48px;
+}
+
+.hero-cards {
+    margin: 0;
+    padding: 0;
 }
