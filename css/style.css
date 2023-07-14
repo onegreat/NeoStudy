@@ -55,6 +55,11 @@
         url("/fonts/NunitoSans-Regular.woff") format("woff");
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
@@ -138,7 +143,48 @@ body {
     font-size: 48px;
 }
 
-.hero-cards {
+.section-features {
+    margin-top: 186px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
     margin: 0;
-    padding: 0;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.features-paragraph {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+    color: rgba(79, 86, 101, 1);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.features-list {
+    margin-top: 25px;
+}
+
+.features-list__item {
+    position: relative;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: rgba(79, 86, 101, 1);
+    list-style-type: none;
+    margin: 10px 0 0 40px;
+}
+
+.features-list__item::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -45px;
+    top: -2px;
+    background-image: url(/img/good.png);
 }
