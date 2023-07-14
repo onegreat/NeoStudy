@@ -149,7 +149,7 @@ body {
     justify-content: space-between;
 }
 
-.features-h2 {
+.features-title {
     font-family: "Rubik", sans-serif;
     font-weight: 500;
     margin: 0;
@@ -187,4 +187,76 @@ body {
     left: -45px;
     top: -2px;
     background-image: url(/img/good.png);
+}
+
+.section-exchange-rate {
+    margin-top: 48.5px;
+    border-radius: 28px;
+    padding: 32px;
+    background-image: linear-gradient(#F4F4F4, #B2B2B2);
+    filter: drop-shadow(0.5px 0.5px #BBBBBB);
+}
+
+.exchange-rate-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exchange-rate__title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.exchange-rate__update {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.section-exchange-rate__span {
+    display: inline-block;
+    margin-top: 24px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.currency-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.currency-containe__list {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.currency-container__item {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22.4px;
+    margin-top: 32px;
+    margin-right: 32px;
+    color: #808080;
+    list-style-type: none;
+}
+
+.currency-container__meaning {
+    display: inline-block;
+    margin-left: 20px;
+    color: #000000
+}
+
+.section-exchange-rate__all {
+    display: inline-block;
+    margin-top: 51px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
