@@ -260,3 +260,29 @@ body {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+.world-map {
+    margin-top: 48px;
+}
+
+.h3-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.world-map__paragraph {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.figure-map {
+    margin-top: 48px;
+}
+
+.world-map__image {
+    display: block;
+    margin: 0 auto;
+}
