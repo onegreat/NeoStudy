@@ -261,7 +261,7 @@ body {
     text-decoration: none;
 }
 
-.world-map {
+.section-world-map {
     margin-top: 48px;
 }
 
@@ -271,18 +271,102 @@ body {
     line-height: 50px;
 }
 
-.world-map__paragraph {
+.paragraph {
     margin-top: 8px;
+    color: #2D3748;
     font-size: 16px;
     line-height: 50px;
     text-align: center;
 }
 
-.figure-map {
+.world-map__figure {
     margin-top: 48px;
 }
 
 .world-map__image {
     display: block;
     margin: 0 auto;
+}
+
+.section-news-world {
+    margin-top: 48px;
+}
+
+.news-world__slider {
+    margin-top: 48px;
+    position: relative;
+}
+
+.news-world__slider-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-world__card {
+    width: 256px;
+    max-width: 320px;
+    min-height: 386px;
+    padding: 32px;
+    border: 1px solid #BBBBBB;
+    border-radius: 28px;
+    box-shadow: -2px 2px -2px -2px #00000033;
+}
+
+.news-world__title-card {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.news-world__title-card {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.news-world__paragraph-card {
+    margin-top: 32px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    line-height: 23px;
+}
+
+.news-world__card-small {
+    width: 68px;
+    max-width: 100px;
+    padding-top: 32px;
+    padding-left: 32px;
+    border-top: 1px solid #BBBBBB;
+    border-left: 1px solid #BBBBBB;
+    border-bottom: 1px solid #BBBBBB;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    box-shadow: -2px 2px -2px -2px #00000033;
+}
+
+.news-world__button {
+    margin-top: 48px;
+    position: absolute;
+    right: 0;
+}
+
+.news-world__button-left {
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url(/img/Button-left.svg);
+}
+
+.news-world__button-right {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url(/img/Button-right.svg);
 }
