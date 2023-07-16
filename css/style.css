@@ -370,3 +370,133 @@ body {
     display: inline-block;
     background-image: url(/img/Button-right.svg);
 }
+
+.section-support {
+    margin-top: 64px;
+}
+
+.section-support__support {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #EB801D;
+    line-height: 35.38px;
+    letter-spacing: 2%;
+    display: block;
+    text-align: center;
+}
+
+.section-support__subscribe {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    display: block;
+    margin-top: 30px;
+    color: #1C1C1E;
+    font-size: 30px;
+    letter-spacing: 2%;
+    line-height: 44.22px;
+    text-align: center;
+}
+
+.section-support__news {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-top: 26.8px;
+    font-size: 30px;
+    line-height: 44.22px;
+    text-align: center;
+    letter-spacing: 2%;
+}
+
+
+.form-support {
+    box-sizing: border-box;
+    margin: 62px auto 98px auto;
+    width: 524px;
+    max-width: 550px;
+    height: 89px;
+    border-radius: 20px;
+    max-height: 90px;
+    background: #FFFFFF;
+}
+
+.text-field {
+    position: relative;
+}
+
+.form-support__container {
+    display: flex;
+    padding: 20px 32px;
+}
+
+.text-field__input {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    width: 300px;
+    max-width: 450px;
+    height: 50px;
+    background: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.text-field__input:focus {
+    outline: none;
+}
+
+.text-field__span {
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 27px;
+    height: 37px;
+    background-image: url(/img/email-form.svg);
+    background-size: 27px 37px;
+    background-repeat: no-repeat;
+}
+
+.c-button {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: none;
+    align-items: center;
+    width: 162px;
+    height: 45px;
+    background: #686DF1;
+    border-radius: 20px;
+}
+
+.c-button svg {
+    display: inline-block;
+    vertical-align: middle;
+    fill: #fff;
+    color: #FFFFFF;
+    width: 23px;
+    height: 26px;
+
+    margin-right: 0.25rem;
+}
+
+.text-field__span-button {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    line-height: 20.3px;
+}
+
+.text-field__input::placeholder {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    margin-left: 30px;
+    color: #9092B0;
+}
