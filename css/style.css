@@ -784,7 +784,7 @@ body {
 
     .hero-cards__image-adaptive {
         display: block;
-        margin: 0 auto;
+        margin: 15px auto;
         padding-bottom: 30px;
     }
 
@@ -861,7 +861,7 @@ body {
     }
 
     .text-field__input {
-        max-width: 170px;
+        max-width: 250px;
     }
 
     .footer__hero-container {
