@@ -149,6 +149,10 @@ body {
     justify-content: space-between;
 }
 
+.hero-cards__image-adaptive {
+    display: none;
+}
+
 .features-title {
     font-family: "Rubik", sans-serif;
     font-weight: 500;
@@ -584,10 +588,7 @@ body {
 
 }
 
-@media (max-width: 920px) {
-    body {
-        outline: 1px solid red;
-    }
+@media (min-width: 501px) and (max-width: 920px) {
 
     .wrapper {
         width: 100%;
@@ -596,16 +597,24 @@ body {
     }
 
     .logo {
+        text-align: center;
+        display: block;
+        margin: auto 0;
         font-size: 20px;
-        margin-right: 10px;
     }
 
     .nav {
         margin: auto 0;
+        text-align: center;
     }
 
-    .navbar__link {
-        font-size: 14px;
+    .navbar__item {
+        margin-right: 10px;
+    }
+
+    .navbar__item::not .navbar__link {
+        font-size: 12px;
+        margin-right: 8px;
     }
 
     .btn {
@@ -716,6 +725,160 @@ body {
 
     .important-link__link {
         font-size: 14px;
+    }
+
+    .cookies-info__paragraph {
+        font-size: 12px;
+        padding-bottom: 22px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .wrapper {
+        width: 100%;
+        padding-left: 1px;
+        padding-right: 1px;
+        outline: 1px solid red;
+    }
+
+    .logo {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .nav {
+        margin: auto 0;
+    }
+
+    .navbar__link {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .navbar__item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .section-hero {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .h1-hero {
+        margin: 0 auto;
+        font-size: 24px;
+        max-width: 300px;
+    }
+
+    .btn-hero {
+        display: block;
+        margin: 25px auto 0 auto;
+    }
+
+    .hero-cards__image {
+        display: none;
+    }
+
+    .hero-cards__image-adaptive {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .exchange-rate__title {
+        font-size: 18px;
+    }
+
+    .news-world__title {
+        display: none;
+    }
+
+    .news-world__paragraph {
+        display: none;
+    }
+
+    .section-features {
+        margin-top: 20px;
+    }
+
+    .features-titile {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .features-paragraph {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .features-list__item {
+        font-size: 14px;
+        margin: 20px 0 0 30%;
+    }
+
+    .man-img {
+        display: none;
+    }
+
+    .exchange-rate-container {
+        display: block;
+    }
+
+    .bank-currency-img {
+        display: none;
+    }
+
+    .exchange-rate__update {
+        display: block;
+        text-align: center;
+    }
+
+    .world-map__image {
+        max-width: 320px;
+    }
+
+    .news-world__slider-container {
+        display: none;
+    }
+
+    .news-world__button {
+        display: none;
+    }
+
+    .section-support__subscribe {
+        font-size: 20px;
+    }
+
+    .section-support__news {
+        font-size: 20px;
+    }
+
+    .form-support {
+        width: 100%;
+    }
+
+    .text-field__input {
+        max-width: 170px;
+    }
+
+    .footer__hero-container {
+        margin-top: 30px;
+    }
+
+    .footer__tel {
+        font-size: 18px;
+    }
+
+    .footer__mail {
+        font-size: 14px;
+    }
+
+    .important-link__link {
+        font-size: 12px;
     }
 
     .cookies-info__paragraph {
