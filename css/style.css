@@ -136,7 +136,7 @@ body {
     justify-content: space-between;
 }
 
-.h1-hero {
+.section-hero__title {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     max-width: 609px;
@@ -149,11 +149,11 @@ body {
     justify-content: space-between;
 }
 
-.hero-cards__image-adaptive {
+.section-hero__cards-image-adaptive {
     display: none;
 }
 
-.features-title {
+.section-features__title {
     font-family: "Rubik", sans-serif;
     font-weight: 500;
     margin: 0;
@@ -161,7 +161,7 @@ body {
     line-height: 50px;
 }
 
-.features-paragraph {
+.section-features__paragraph {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     margin: 20px 0 0 0;
@@ -170,11 +170,11 @@ body {
     line-height: 30px;
 }
 
-.features-list {
+.section-features__list {
     margin-top: 25px;
 }
 
-.features-list__item {
+.section-features__item {
     position: relative;
     font-family: "Rubik", sans-serif;
     font-weight: 400;
@@ -183,14 +183,14 @@ body {
     margin: 10px 0 0 40px;
 }
 
-.features-list__item::before {
+.section-features__item::before {
     content: "";
     width: 24px;
     height: 24px;
     position: absolute;
     left: -45px;
     top: -2px;
-    background-image: url(/img/good.png);
+    background-image: url(../img/good.png);
 }
 
 .section-exchange-rate {
@@ -201,7 +201,7 @@ body {
     filter: drop-shadow(0.5px 0.5px #BBBBBB);
 }
 
-.exchange-rate-container {
+.exchange-rate__container {
     display: flex;
     justify-content: space-between;
 }
@@ -220,7 +220,7 @@ body {
     line-height: 50px;
 }
 
-.section-exchange-rate__span {
+.exchange-rate__span {
     display: inline-block;
     margin-top: 24px;
     font-family: "Ubuntu", sans-serif;
@@ -229,19 +229,18 @@ body {
     line-height: 50px;
 }
 
-.currency-container {
+.exchange-rate__currency-container {
     display: flex;
     justify-content: space-between;
 }
 
-.currency-containe__list {
-
+.exchange-rate__currency-container-list {
     display: flex;
     flex-wrap: wrap;
     max-width: 500px;
 }
 
-.currency-container__item {
+.exchange-rate__currency-container-item {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -252,13 +251,13 @@ body {
     list-style-type: none;
 }
 
-.currency-container__meaning {
+.exchange-rate__currency-container-meaning {
     display: inline-block;
     margin-left: 20px;
     color: #000000
 }
 
-.section-exchange-rate__all {
+.exchange-rate__all {
     display: inline-block;
     margin-top: 51px;
     color: #FFFFFF;
@@ -414,7 +413,7 @@ body {
 }
 
 
-.form-support {
+.section-support__form {
     box-sizing: border-box;
     margin: 62px auto 98px auto;
     width: 524px;
@@ -425,16 +424,16 @@ body {
     background: #FFFFFF;
 }
 
-.text-field {
+.section-support__text-field {
     position: relative;
 }
 
-.form-support__container {
+.section-support__container {
     display: flex;
     padding: 20px 32px;
 }
 
-.text-field__input {
+.section-support__text-field-input {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 400;
     width: 285px;
@@ -451,22 +450,22 @@ body {
     border-radius: 5px;
 }
 
-.text-field__input:focus {
+.section-support__text-field-input:focus {
     outline: none;
 }
 
-.text-field__span {
+.section-support__text-field-span {
     position: absolute;
     left: 0;
     top: 15%;
     width: 27px;
     height: 37px;
-    background-image: url(/img/email-form.svg);
+    background-image: url(../img/email-form.svg);
     background-size: 27px 37px;
     background-repeat: no-repeat;
 }
 
-.c-button {
+.section-support__c-button {
     display: flex;
     justify-content: space-between;
     padding-left: 14px;
@@ -479,18 +478,17 @@ body {
     border-radius: 20px;
 }
 
-.c-button svg {
+.section-support__c-button svg {
     display: inline-block;
     vertical-align: middle;
     fill: #fff;
     color: #FFFFFF;
     width: 23px;
     height: 26px;
-
     margin-right: 0.25rem;
 }
 
-.text-field__span-button {
+.section-support__button-span {
     display: inline-block;
     font-size: 16px;
     margin-left: 10px;
@@ -498,7 +496,7 @@ body {
     line-height: 20.3px;
 }
 
-.text-field__input::placeholder {
+.section-support__text-field-input::placeholder {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 400;
     margin-left: 30px;
@@ -630,7 +628,7 @@ body {
         display: block;
     }
 
-    .h1-hero {
+    .section-hero__title {
         margin: 0 auto;
         font-size: 30px;
     }
@@ -640,7 +638,7 @@ body {
         margin: 25px auto 0 auto;
     }
 
-    .hero-cards__image {
+    .section-hero__cards-image {
         margin: 25px auto 0 auto;
         display: block;
     }
@@ -657,24 +655,24 @@ body {
         display: none;
     }
 
-    .features-titile {
+    .section-features__title {
         font-size: 16px;
     }
 
-    .features-paragraph {
+    .section-features__paragraph {
         font-size: 14px;
     }
 
-    .features-list__item {
+    .section-features__item {
         font-size: 14px;
         margin: 15px 0 0 60px;
     }
 
-    .man-img {
-        max-width: 350px;
+    .section-features__man-img {
+        max-width: 320px;
     }
 
-    .exchange-rate-container {
+    .exchange-rate__container {
         display: block;
     }
 
@@ -703,11 +701,11 @@ body {
         font-size: 24px;
     }
 
-    .form-support {
+    .section-support__form {
         max-width: 490px;
     }
 
-    .text-field__input {
+    .section-support__text-field-input {
         max-width: 230px;
     }
 
@@ -767,7 +765,7 @@ body {
         display: block;
     }
 
-    .h1-hero {
+    .section-hero__title {
         margin: 0 auto;
         font-size: 24px;
         max-width: 300px;
@@ -778,11 +776,11 @@ body {
         margin: 25px auto 0 auto;
     }
 
-    .hero-cards__image {
+    .section-hero__cards-image {
         display: none;
     }
 
-    .hero-cards__image-adaptive {
+    .section-hero__cards-image-adaptive {
         display: block;
         margin: 15px auto;
         padding-bottom: 30px;
@@ -804,30 +802,30 @@ body {
         margin-top: 20px;
     }
 
-    .features-titile {
+    .section-features__title {
         font-size: 14px;
         text-align: center;
     }
 
-    .features-paragraph {
+    .section-features__paragraph {
         font-size: 14px;
         text-align: center;
     }
 
-    .features-list__item {
+    .section-features__item {
         font-size: 14px;
         margin: 20px 0 0 30%;
     }
 
-    .man-img {
+    .section-features__man-img {
         display: none;
     }
 
-    .exchange-rate-container {
+    .exchange-rate__container {
         display: block;
     }
 
-    .bank-currency-img {
+    .exchange-rate__bank-currency-img {
         display: none;
     }
 
@@ -856,11 +854,11 @@ body {
         font-size: 20px;
     }
 
-    .form-support {
+    .section-support__form {
         width: 100%;
     }
 
-    .text-field__input {
+    .section-support__text-field-input {
         max-width: 250px;
     }
 
